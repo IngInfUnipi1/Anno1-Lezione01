@@ -5,10 +5,10 @@ using namespace std;	//copia incolla. determina il linguaggio standard
 
 int main(){ 					//il programma, dopo aver capito il linguaggio da utilizzare tramite la riga 2, partirà da questa "funzione"
 
-	int divisore,dividendo,resto; 		 	//dichiarazione delle variabili che utilizzeremo durante il programma.
+	int divisore,dividendo,resto; 		//dichiarazione delle variabili che utilizzeremo durante il programma.
 	cout<<"inserisci il Dividendo: "; 	//una semplice e inutile stampa a schermo, vedere foto successiva
-	cin>>dividendo; 										//attende l'inserimento di un valore da assegnare alla variabile, l'inserimento verrà effettuato da tastiera
-	cout<<"inserisci il Divisore: "; 		//uguale a riga 5 (questa viene stampata a schermo dopo l'inserimento del primo numero)
+	cin>>dividendo; 			//attende l'inserimento di un valore da assegnare alla variabile, l'inserimento verrà effettuato da tastiera
+	cout<<"inserisci il Divisore: "; 	//uguale a riga 5 (questa viene stampata a schermo dopo l'inserimento del primo numero)
 	cin>>divisore; 											//uguale a riga 6 ma cambiando variabile
 
 	/* altro modo per inserire i commenti, permette di riempire più righe senza dover riscrivere // // ogni riga
@@ -16,12 +16,12 @@ int main(){ 					//il programma, dopo aver capito il linguaggio da utilizzare tr
 		istruzioni interne al cilo altrimenti esce e si ritrova dopo la parentesi graffa chiusa }
 	*/
 	
-	while(divisore!=0){ 						//un ciclo, permette di ripetere le istruzioni interne alle graffe {} finché la condizione tra le () è verificata
+	while(divisore!=0){ 			//un ciclo, permette di ripetere le istruzioni interne alle graffe {} finché la condizione tra le () è verificata
 		resto= dividendo % divisore; 	//assegna alla variabile "resto" appunto il resto della divisione tra dividendo/divisore
-		dividendo=divisore; 					//assegna a dividendo il contenuto della variabile divisore
-		divisore=resto; 							//assegna a divisore il contenuto della variabile resto
+		dividendo=divisore; 		//assegna a dividendo il contenuto della variabile divisore
+		divisore=resto; 		//assegna a divisore il contenuto della variabile resto
 	} 															//chiusura ciclo
-	cout<<dividendo; 								//stampa a schermo il contenuto di dividendo.
+	cout<<dividendo; 			//stampa a schermo il contenuto di dividendo.
 	
 }		//fine main
 
