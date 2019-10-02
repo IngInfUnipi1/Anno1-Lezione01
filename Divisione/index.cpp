@@ -1,5 +1,6 @@
 
-//AUTHOR: Samuele Ricotta, grai
+//AUTHOR: Samuele Ricotta
+
 #include <iostream> 	//copia incolla. richiama una libreria fondamentale per il linguaggio utilizzato
 using namespace std;	//copia incolla. determina il linguaggio standard
 
